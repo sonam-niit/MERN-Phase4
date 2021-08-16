@@ -10,17 +10,17 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://www.npmjs.com/search?q=keywords:karma-adapter
-    frameworks: ['jasmine','sinon'],
+    frameworks: ['jasmine-jquery','jasmine','sinon'],
 
 
     // list of files / patterns to load in the browser
     files: [
-      'spec/**/*.js',
+      'lib/jquery.min.js',
       'lib/underscore-min.js',
       'lib/backbone-min.js' ,
       'src/recipeModel.js',
       'src/recipeCollection.js',
-      'lib/jquery-min.js'
+      'spec/**/*.js'
     ],
 
 
