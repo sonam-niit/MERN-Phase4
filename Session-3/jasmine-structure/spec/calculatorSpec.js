@@ -1,4 +1,6 @@
-class Calculator{
+class calculator{
+
+    
     add(a,b)
     {
         return a+b;
@@ -9,7 +11,7 @@ class Calculator{
     }
 }
 describe("calculator test",function(){
-    var calc=new Calculator();
+    var calc=new calculator();
     it('should be able to add two numbers',function(){
         console.log(calc.add(2,6));
         expect(calc.add(2,6)).toBe(8);
@@ -31,8 +33,5 @@ describe("calculator test",function(){
         expect(calc).not.toBeUndefined();
         expect(calc).not.toBeNull();
     })
-    // it('description of class',function(){
-    //     expect(calc).toMatch('class');
-    //     expect(calc).toContain('Calculator');
-    // })
+    
 });
