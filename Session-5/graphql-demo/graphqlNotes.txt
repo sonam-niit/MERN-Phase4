@@ -1,0 +1,68 @@
+GraphQL
+--------------------------
+query language for APIs
+
+provides complete description of out data in API
+
+we can execute queries and work with our existing data.
+
+when you are executing the query will send the predictanble results
+
+{
+	student{
+		id
+		name
+		phone
+		address
+	}
+}
+
+{
+	"students":{
+		"id":"23",
+		"name":"sonam",
+		"phone":"5678998900",
+		"address":"Mumbai"
+	}
+}
+
+
+REST- Representational state transfer
+
+graphql is optimising Rest API
+--------------------------------------------
+installation: 
+
+npm init
+npm install graphql --save
+
+
+
+
+============================================================
+Apollo Graphql is a platform using that we can manage our schemas
+
+we can also represents  the same in graphs
+
+also we can delete many boilerplates codes wich are not required
+
+its a replacement of REST
+
+Appolo client: state management libbary written in Js
+we can manage both remote / local data with graphql
+
+we can fetch,catche, manage the daata automatically when you update your user Interface
+
+
+-----------------------------------------------------------
+to work with apploclient with react
+------------------------------------------
+create react app
+
+npm install @apollo/client graphql
+
+
+connect appolo client with React
+component and inside that create object and manage the data query using that
+
+
